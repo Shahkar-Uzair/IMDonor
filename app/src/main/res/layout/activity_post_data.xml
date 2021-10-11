@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".postData"
+    android:orientation="vertical"
+    android:background="#FFA3AB"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill Blood Request Form"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/BloodGrouptype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/roles"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:backgroundTint="#E5E4E2"
+        android:textColor="@color/black">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <Spinner
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/statusRoles"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#E5E4E2"
+        android:textSize="20sp"
+        android:textColor="@color/black">
+    </Spinner>
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Donor/Acceptor"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:id="@+id/statusId"-->
+<!--        />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:background="#E5E4E2"
+        android:id="@+id/nameId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Location"
+        android:paddingLeft="10dp"
+        android:background="#E5E4E2"
+        android:id="@+id/locationId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:paddingLeft="10dp"
+        android:background="#E5E4E2"
+        android:id="@+id/numberId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Message"
+        android:paddingLeft="10dp"
+        android:background="#E5E4E2"
+        android:id="@+id/messageId"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F3453F"
+        android:text="Submit"
+        android:onClick="submitData"
+        />
+
+
+
+
+</LinearLayout>

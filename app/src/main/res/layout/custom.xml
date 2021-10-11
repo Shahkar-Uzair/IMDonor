@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    tools:context=".AllMessage"
+    android:background="#f8f8f8">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="15dp"
+        android:layout_toLeftOf="@+id/blood_group">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ahmad Khan"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:id="@+id/nameId"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hayatab Peshawar "
+            android:id="@+id/locationId"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:background="#FF7154"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:id="@+id/blood_group">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B+"
+            android:textColor="#ffffff"
+            android:textSize="32dp"
+            android:id="@+id/bloodGroupId"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Donor"
+            android:textColor="#ffffff"
+            android:id="@+id/statusId"/>
+
+    </LinearLayout>
+    
+
+
+
+</RelativeLayout>

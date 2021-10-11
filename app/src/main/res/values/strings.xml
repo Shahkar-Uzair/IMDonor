@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IM Donor</string>
+
+    <array name="roles">
+        <item>O+</item>
+        <item>A+</item>
+        <item>B+</item>
+        <item>O-</item>
+        <item>AB+</item>
+    </array>
+
+    <array name="statusRoles">
+        <item>Acceptor</item>
+        <item>Donor</item>
+    </array>
+
+</resources>

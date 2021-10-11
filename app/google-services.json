@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578927742263",
+    "project_id": "im-donor-85015",
+    "storage_bucket": "im-donor-85015.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578927742263:android:a28ee98651809395665eb2",
+        "android_client_info": {
+          "package_name": "com.example.imdonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578927742263-hajavi05vmv1mtfprr40hll8vsl9btp9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7E0H9jPe-T3s2teVQDL2lsTN5T0D608Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578927742263-hajavi05vmv1mtfprr40hll8vsl9btp9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
